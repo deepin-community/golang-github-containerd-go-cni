@@ -1,5 +1,69 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-containerd-go-cni (1.1.7-2) unstable; urgency=medium
 
-  * Initial release
+  [ Shengjing Zhu ]
+  * Add Multi-Arch hint
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 26 Nov 2022 13:54:14 +0000
+
+golang-github-containerd-go-cni (1.1.7-1) unstable; urgency=medium
+
+  * New upstream version 1.1.7
+  * Update Standards-Version to 4.6.1 (no changes)
+  * Skip integration test
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 20 Aug 2022 21:18:43 +0800
+
+golang-github-containerd-go-cni (1.1.3-1) unstable; urgency=medium
+
+  * New upstream version 1.1.3
+  * Bump cni to 1.0.1
+  * Remove golang-github-pkg-errors-dev from Build-Depends
+
+ -- Shengjing Zhu <zhsj@debian.org>  Wed, 23 Feb 2022 01:38:29 +0800
+
+golang-github-containerd-go-cni (1.0.2-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * Update Standards-Version to 4.6.0 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Mon, 23 Aug 2021 23:57:42 +0800
+
+golang-github-containerd-go-cni (1.0.2-1) experimental; urgency=medium
+
+  * New upstream version 1.0.2
+
+ -- Shengjing Zhu <zhsj@debian.org>  Thu, 17 Jun 2021 00:24:11 +0800
+
+golang-github-containerd-go-cni (1.0.1-1) unstable; urgency=medium
+
+  * New upstream version 1.0.1
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 23 Aug 2020 21:25:58 +0800
+
+golang-github-containerd-go-cni (1.0.0-1) unstable; urgency=medium
+
+  * New upstream version 1.0.0
+  * Bump debhelper-compat to 13
+  * Update Standards-Version to 4.5.0 (no changes)
+  * Add patch to fix compatibility with new CNI (Closes: #965266)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 19 Jul 2020 00:57:53 +0800
+
+golang-github-containerd-go-cni (0.0~git20190904.d20b7ee-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Standards-Version: 4.4.1.
+  * Added myself to Uploaders.
+  * (Build-)Depends:
+    = golang-github-appc-cni-dev (>= 0.7.1~)
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 17 Oct 2019 13:01:07 +1100
+
+golang-github-containerd-go-cni (0.0~git20190226.0683513-1) unstable; urgency=medium
+
+  * Initial release (Closes: 924098)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 09 Mar 2019 23:04:41 +0800
