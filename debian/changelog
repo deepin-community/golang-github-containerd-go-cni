@@ -1,3 +1,21 @@
+golang-github-containerd-go-cni (1.1.9-2) unstable; urgency=medium
+
+  * Team upload
+  * Upload changes from experimental to unstable
+  * d/control:
+    - Update Standards-Version to 4.7.0 (no changes needed)
+    - Sync Depends with Build-Depends
+
+ -- Mathias Gibbens <gibmat@debian.org>  Thu, 25 Jul 2024 11:44:35 +0000
+
+golang-github-containerd-go-cni (1.1.9-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 1.1.9
+  * bump standards version, no changes needed
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 15 Jun 2024 07:13:31 -0400
+
 golang-github-containerd-go-cni (1.1.7-2) unstable; urgency=medium
 
   [ Shengjing Zhu ]
